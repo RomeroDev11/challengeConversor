@@ -55,7 +55,7 @@ public class Principal {
                             break;
                     }
                 } catch (InputMismatchException e) {
-                    System.out.println("Entrada inválida. Por favor ingrese un número.");
+                    System.out.println("Entrada inválida. Por favor ingrese un valor numérico.");
                     lectura.nextLine(); // Limpiar el buffer
                 }
             }
